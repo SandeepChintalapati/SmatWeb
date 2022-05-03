@@ -69,7 +69,7 @@ public class CreateProjectTest {
 		driver.findElement(By.xpath("//tr[@data-id='8']/td/a")).click();
 		driver.close();
 		
-		System.out.println("Extra line in create project");
+		System.out.println("Extra line in create projectttt12345678");
 		/*
 		 * driver.findElement(By.cssSelector("button[lov-modal-page='400564']")).click()
 		 * ; driver.findElement(By.xpath("//tr[@data-id='1']/td/a")).click();
