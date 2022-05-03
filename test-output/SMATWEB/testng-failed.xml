@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SMATWEB]">
+  <parameter name="URL" value="https://in-srddb.ingrnet.com:8443/apex/sdb123/f?p=101:LOGIN"/>
+  <test thread-count="5" name="ADMIN(failed)">
+    <classes>
+      <class name="AdminModule.Smatweb.CreateUserTest">
+        <methods>
+          <include name="CreateUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AdminModule.Smatweb.CreateUserTest -->
+    </classes>
+  </test> <!-- ADMIN(failed) -->
+</suite> <!-- Failed suite [SMATWEB] -->
